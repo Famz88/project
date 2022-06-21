@@ -10,7 +10,7 @@ I created a website where people can create posts, share blogs and ideas, access
 
 ## What’s contained in each file:
 - [project](https://github.com/Famz88/project/tree/master) is the project folder. It contains:
-[__pycache__]](https://github.com/Famz88/project/tree/master/__pycache__): it contains caches of the program.
+- [__pycache__]](https://github.com/Famz88/project/tree/master/__pycache__): it contains caches of the program.
 above
 - [img](https://github.com/Famz88/project/tree/master/img): it contains an image of the logo.
 above

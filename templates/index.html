@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to <span class="multicolortext" style="font-size: 100px">S@cially</span>{% endblock %}</h1>
+    {% for post in posts %}
+    <a href="{{ url_for('post', post_id=post['id']) }}">
+        <h3>{{ post['title'] }}</h3>
+    </a>
+    <span class="badge badge-primary">{{ post['created'] }}</span>
+    <a href="{{ url_for('edit', id=post['id']) }}">
+        <span class="badge badge-warning">Edit</span>
+    </a>
+    <hr>
+{% endfor %}
+{% endblock %}
